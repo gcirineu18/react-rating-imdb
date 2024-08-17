@@ -1,9 +1,8 @@
 
-import {Grid,Header,Form, Segment, Button, TextArea} from "semantic-ui-react";
+import {Grid,Header,Form, Segment, Button} from "semantic-ui-react";
 import {useMutation} from "@tanstack/react-query";
 import { mutationLogin } from "./mutation";
 import {useNavigate} from "react-router-dom";
-import { useState } from "react";
 
 
 export const Auth = () =>{
